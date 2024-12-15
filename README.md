@@ -149,10 +149,10 @@ Aurevia is perfect for:
 
 | Name                 | GitHub Profile                                           |
 |----------------------|----------------------------------------------------------|
-| Thimathi Dissanayake | [Main of 2MBS](https://github.com/thimathi)   |
-| Mineth Gunawardena   | [Contributor](https://github.com/minethgunawardena)      |
-| Shehan Gunasekara    | [Contributor](https://github.com/Shehan303)              |
-| Bhanuka Rajasinghe   | [Contributor](https://github.com/Bhanu2001829)           |
+| Thimathi Dissanayake | [Developer /Data Analyst](https://github.com/thimathi)   |
+| Mineth Gunawardena   | [Developer ](https://github.com/minethgunawardena)      |
+| Shehan Gunasekara    | [UI/UX Engineer](https://github.com/Shehan303)              |
+| Bhanuka Rajasinghe   | [QA Analyst](https://github.com/Bhanu2001829)           |
 
 ---
 
@@ -161,4 +161,4 @@ Aurevia bridges the gap between a busy lifestyle and the need for physical and m
 
 ---
 
-### 💻 [View the Repository](https://github.com/thimathi)
+### 💻 [View the Repository](https://github.com/thimathi/Aurevia)
