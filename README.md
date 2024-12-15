@@ -52,44 +52,82 @@ Pushes notifications to reduce stress and anxiety levels.
         Design: Focus on minimalistic and user-friendly interfaces.
 
 *Backend
+
         1. Authentication
+        
               Alternative:  Auth0 Free Tier or Supabase Authentication
+              
                             Provides email/password authentication, social logins, and even third-party integrations for free.
+                            
                             Supabase offers 10,000 monthly active users (MAUs) on its free tier.
+                            
         2. Real-Time Database
+        
               Alternative:  Supabase Database or PostgreSQL
+              
                             Supabase provides a managed PostgreSQL database with real-time functionality.
+                            
                             It’s highly customizable and scales well, with a generous free tier.
+                            
               Alternative:  SQLite for local storage.
+              
                             Use SQLite for local-only data storage if real-time sync is unnecessary.
+                            
         3. Cloud Storage
+        
               Alternative:  AWS Free Tier
+              
                             Amazon S3 provides 5GB of free storage.
+                            
                             You can integrate it with your backend or use their SDK for uploading files.
+                            
                             Alternative: Google Drive API (if small-scale file storage suffices).
+                            
                             Allows users to store and retrieve files in their own Google Drive.
         4. Notifications
+        
               Alternative:  OneSignal
+              
                             Free push notification service for mobile and web apps.
+                            
                             It supports real-time notifications and scheduling.
+                            
               Alternative:  Native Android Firebase-Free Solutions
+              
                             Leverage Android’s AlarmManager or WorkManager to schedule notifications without Firebase.
+                            
         5. Location Services
+        
                             Keep Firebase Replacement as Google Maps API.
+                            
                             Google Maps API is independent of Firebase. It works seamlessly for location-based features.
+                            
         6. AI/ML Integration
+        
               Alternative:  TensorFlow Lite
+              
                             This works offline on mobile devices and is free for use.
+                            
               Alternative:  Hugging Face
+              
                             Offers free APIs for certain NLP and ML models.
+                            
         7. Analytics
+        
               Alternative:  Matomo Analytics
+              
                             A free, self-hosted analytics tool.
+                            
               Alternative:  Amplitude
+              
                             Provides a free tier with up to 10 million user actions per month.
+                            
         8. Hosting
+        
               Alternative:  Netlify or Vercel
+              
                             Free hosting for static files and serverless functions.
+                            
                             Suitable for hosting frontends or simple backend APIs.
         
 # User Journey
