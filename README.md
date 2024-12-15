@@ -1,203 +1,164 @@
-# Aurevia
-Aurevia - Comprehensive Health and Wellness App
+# 🌟 Aurevia - Comprehensive Health and Wellness App
 
-# Project Overview
-The proposed application is a comprehensive health and wellness app designed for busy individuals such as employees, business owners, part-time workers, and multitasking students. Unlike single-purpose apps like Apple Health or BPM checkers, this app offers an all-encompassing suite of features aimed at promoting physical fitness, mental health, and a balanced lifestyle.
+Aurevia is your all-in-one health and wellness companion, designed to help busy individuals maintain a balanced lifestyle. Whether you're a professional, entrepreneur, or multitasking student, Aurevia empowers you with personalized insights to stay physically fit, mentally strong, and in control of your well-being. 💪🧘‍♀️
 
-# Objective
-To provide personalized health and wellness solutions by leveraging user data, wearable devices, and AI-driven insights, ensuring that users can maintain a healthy lifestyle despite their busy schedules.
+---
 
-# Target Audience
-* Busy professionals
-* Entrepreneurs and business owners
-* Part-time employees
-* Multi-course/diploma students
+## 📖 Overview
+Aurevia is not just another fitness tracker or meditation app. It's a comprehensive platform that combines:
 
-# Key Features
+- **Physical Fitness** 🏋️‍♂️
+- **Mental Health** 🧠
+- **Leisure & Lifestyle Management** 🎨
 
-* Location-Based Fitness Suggestions
+With AI-driven insights, wearable integrations, and user-friendly tools, Aurevia ensures that your health goals are always within reach.
 
-Uses location services to identify nearby jogging tracks, fitness centers, and parks within a 2 km radius.
-Integrates Google Maps API for accurate location tracking and mapping.
+---
 
-* User Schedule Integration
+## 🎯 Objectives
+To provide **personalized health and wellness solutions** through:
 
-Collects user schedule data, including wake-up time, sleep time, work hours, and break periods.
-Provides a form-based interface for easy schedule input.
+- Leveraging **AI-driven insights**
+- Seamlessly syncing with **wearable devices**
+- Offering actionable recommendations to fit into your busy schedule
 
-* Personalized Recommendations
+---
 
-Suggests tailored workout plans and diet charts based on user preferences and free time.
-Analyzes user habits and provides actionable insights for better health management.
+## 👥 Target Audience
+Aurevia is perfect for:
 
-* Leisure Activity Suggestions
+- Busy professionals 🧑‍💼
+- Entrepreneurs & business owners 💼
+- Part-time employees 🕒
+- Multi-course or diploma students 📚
 
-Recommends relaxation activities such as reading books, watching movies, or engaging in hobbies.
-Focuses on mental health improvement through curated suggestions.
+---
 
-* Wearable Device Integration
+## 🚀 Key Features
 
-Syncs with smartwatches to monitor health metrics like BPM, steps, and calories burned.
-Sends real-time notifications for health tips, reminders, and motivational quotes.
+### 📍 Location-Based Fitness Suggestions
+- Identifies nearby jogging tracks, fitness centers, and parks (within a 2 km radius).
+- Integrates **Google Maps API** for precise mapping.
 
-* Mental Health Support
+### 📅 User Schedule Integration
+- Collects daily schedules (wake-up, sleep, work hours, and breaks).
+- User-friendly **form-based inputs**.
 
-Includes breathing exercises, mindfulness practices, and guided meditations.
-Pushes notifications to reduce stress and anxiety levels.
+### 🧩 Personalized Recommendations
+- Tailored workout plans and diet suggestions based on preferences and free time.
+- AI-analyzed user habits for actionable insights.
 
-# Technical Architecture
+### 🛋️ Leisure Activity Suggestions
+- Recommends mental health-boosting activities like reading, hobbies, or movies.
+- Encourages relaxation and stress management.
 
-*Frontend
-        Framework: Flutter (Dart) for cross-platform compatibility or Kotlin for Android.
-        Design: Focus on minimalistic and user-friendly interfaces.
+### ⌚ Wearable Device Integration
+- Syncs with smartwatches to monitor BPM, steps, and calories.
+- Sends real-time **notifications** for health tips and motivational quotes.
 
-*Backend
+### 🧘 Mental Health Support
+- Includes breathing exercises, mindfulness practices, and guided meditations.
+- Notifications to reduce stress and anxiety.
 
-        1. Authentication
-        
-              Alternative:  Auth0 Free Tier or Supabase Authentication
-              
-                            Provides email/password authentication, social logins, and even third-party integrations for free.
-                            
-                            Supabase offers 10,000 monthly active users (MAUs) on its free tier.
-                            
-        2. Real-Time Database
-        
-              Alternative:  Supabase Database or PostgreSQL
-              
-                            Supabase provides a managed PostgreSQL database with real-time functionality.
-                            
-                            It’s highly customizable and scales well, with a generous free tier.
-                            
-              Alternative:  SQLite for local storage.
-              
-                            Use SQLite for local-only data storage if real-time sync is unnecessary.
-                            
-        3. Cloud Storage
-        
-              Alternative:  AWS Free Tier
-              
-                            Amazon S3 provides 5GB of free storage.
-                            
-                            You can integrate it with your backend or use their SDK for uploading files.
-                            
-                            Alternative: Google Drive API (if small-scale file storage suffices).
-                            
-                            Allows users to store and retrieve files in their own Google Drive.
-        4. Notifications
-        
-              Alternative:  OneSignal
-              
-                            Free push notification service for mobile and web apps.
-                            
-                            It supports real-time notifications and scheduling.
-                            
-              Alternative:  Native Android Firebase-Free Solutions
-              
-                            Leverage Android’s AlarmManager or WorkManager to schedule notifications without Firebase.
-                            
-        5. Location Services
-        
-                            Keep Firebase Replacement as Google Maps API.
-                            
-                            Google Maps API is independent of Firebase. It works seamlessly for location-based features.
-                            
-        6. AI/ML Integration
-        
-              Alternative:  TensorFlow Lite
-              
-                            This works offline on mobile devices and is free for use.
-                            
-              Alternative:  Hugging Face
-              
-                            Offers free APIs for certain NLP and ML models.
-                            
-        7. Analytics
-        
-              Alternative:  Matomo Analytics
-              
-                            A free, self-hosted analytics tool.
-                            
-              Alternative:  Amplitude
-              
-                            Provides a free tier with up to 10 million user actions per month.
-                            
-        8. Hosting
-        
-              Alternative:  Netlify or Vercel
-              
-                            Free hosting for static files and serverless functions.
-                            
-                            Suitable for hosting frontends or simple backend APIs.
-        
-# User Journey
+---
 
-* Onboarding
+## 🛠️ Technical Architecture
 
-User signs up and creates a profile.
-App requests access to location and wearable device data.
-User inputs daily schedule and preferences.
+### 🎨 Frontend
+- Framework: **Flutter** (Dart) for cross-platform compatibility.
+- Design: Minimalistic and user-friendly UI.
 
-* Dashboard
+### 🗄️ Backend
 
-Displays:
-Health stats (steps, calories, BPM).
-Personalized suggestions (workouts, diet, relaxation activities).
+| **Feature**               | **Options**                                      |
+|---------------------------|-------------------------------------------------|
+| **Authentication**        | Auth0, Supabase Authentication                  |
+| **Database**              | Supabase (PostgreSQL), SQLite                   |
+| **Cloud Storage**         | AWS S3, Google Drive API                        |
+| **Notifications**         | OneSignal, Native Android WorkManager           |
+| **Location Services**     | Google Maps API                                 |
+| **AI/ML**                 | TensorFlow Lite, Hugging Face APIs              |
+| **Analytics**             | Matomo Analytics, Amplitude                    |
+| **Hosting**               | Netlify, Vercel                                 |
 
-* Recommendations
+---
 
-Dynamic recommendations based on user’s location, schedule, and preferences.
-Includes actionable health tips and motivational content.
+## 🛤️ User Journey
 
-* Notifications
+### 🆕 Onboarding
+1. User signs up and creates a profile.
+2. App requests access to location and wearable device data.
+3. User inputs daily schedule and preferences.
 
-Health reminders (e.g., "Time to drink water").
-Motivational quotes.
-Alerts for inactivity or abnormal BPM.
+### 📊 Dashboard
+- Displays health stats (steps, calories, BPM).
+- Offers personalized suggestions for workouts, diet, and relaxation.
 
-* Development Roadmap
+### 🤝 Recommendations
+- Dynamic suggestions based on location, schedule, and preferences.
 
-Phase 1:  Planning & Design
-          Define core features and user flow.
-          Create wireframes and mockups using tools like Figma.
+### 🔔 Notifications
+- Health reminders (e.g., "Time to drink water").
+- Motivational quotes and alerts for inactivity.
 
-Phase 2:  Core Development
-          Build frontend UI in Flutter or Kotlin.
-          Develop backend APIs and integrate Firebase.
-          Implement location-based fitness suggestions.
+---
 
-Phase 3:  Advanced Features
-          Add wearable device integration.
-          Develop AI/ML-based personalization engine.
+## 🗓️ Development Roadmap
 
-Phase 4:  Testing
-          Conduct unit, integration, and user acceptance testing.
-          Optimize for performance and usability.
+### **Phase 1: Planning & Design**
+- Define core features and user flow.
+- Create wireframes using **Figma**.
 
-Phase 5:  Deployment
-          Publish on Google Play Store (and App Store if Flutter is used).
-          Market the app and gather user feedback for iterative updates.
+### **Phase 2: Core Development**
+- Build frontend in Flutter or Kotlin.
+- Develop backend APIs and integrate features like location-based suggestions.
 
-# Key Benefits
+### **Phase 3: Advanced Features**
+- Integrate wearable devices.
+- Develop AI/ML-based personalization engine.
 
-Comprehensive Solution: Combines physical fitness, mental health, and leisure into one app.
+### **Phase 4: Testing**
+- Conduct unit, integration, and user acceptance testing.
+- Optimize performance and usability.
 
-Personalized Experience: Tailors recommendations to individual user needs and schedules.
+### **Phase 5: Deployment**
+- Publish on **Google Play Store** (and App Store if Flutter is used).
+- Gather user feedback for iterative updates.
 
-Convenience: Supports busy users with efficient health management tools.
+---
 
-Engagement: Keeps users motivated with notifications and gamified rewards.
+## 🌟 Key Benefits
 
-# Future Enhancements
+- **Comprehensive Solution**: Combines physical fitness, mental health, and leisure into one app.
+- **Personalized Experience**: Adapts to your needs and schedule.
+- **Convenience**: Efficiently integrates with wearables and schedules.
+- **Engagement**: Keeps users motivated with notifications and rewards.
 
-Gamification elements (badges, rewards, challenges).
+---
 
-Community features (connect with users for group workouts).
+## 🛠️ Future Enhancements
 
-Offline mode for exercises and meditation guides.
+- 🎮 **Gamification**: Add badges, rewards, and challenges.
+- 🤝 **Community Features**: Enable group workouts and user interactions.
+- 🌐 **Offline Mode**: Include offline exercises and meditation guides.
+- 🧠 **Advanced AI Models**: Enhance personalization.
 
-Advanced AI models for deeper personalization.
+---
 
-# Conclusion
+## ✨ Contributors
 
-This health and wellness app aims to bridge the gap between busy lifestyles and the need for balanced physical and mental health. By leveraging technology, personalization, and user-centric design, it provides a holistic solution for modern challenges in health management.
+| Name                 | GitHub Profile                                           |
+|----------------------|----------------------------------------------------------|
+| Thimathi Dissanayake | [Main of 2MBS](https://github.com/thimathi)   |
+| Mineth Gunawardena   | [Contributor](https://github.com/minethgunawardena)      |
+| Shehan Gunasekara    | [Contributor](https://github.com/Shehan303)              |
+| Bhanuka Rajasinghe   | [Contributor](https://github.com/Bhanu2001829)           |
+
+---
+
+## 🏁 Conclusion
+Aurevia bridges the gap between a busy lifestyle and the need for physical and mental wellness. With cutting-edge technology and user-focused design, Aurevia is the modern solution to staying healthy in a fast-paced world.
+
+---
+
+### 💻 [View the Repository](https://github.com/thimathi)
