@@ -1,0 +1,11 @@
+node_modules/
+venv/
+.env
+dist/
+build/
+notebooks/results
+notebooks/aurevia_text_model
+*.zip
+*.mp4
+*.exe
+*.log

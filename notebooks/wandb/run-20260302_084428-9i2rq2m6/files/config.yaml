@@ -1,0 +1,57 @@
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            szn7ip7wv5qijlxrmg6dr6rox2m2tkoj:
+                codePath: c:\Users\Thimathi\source\Aurevia\notebooks\model_text.ipynb
+                codePathLocal: model_text.ipynb
+                cpu_count: 16
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "476373315584"
+                        used: "200374546432"
+                email: chathuradissanayake274@gmail.com
+                executable: c:\Users\Thimathi\AppData\Local\Programs\Python\Python310\python.exe
+                git:
+                    commit: 17b9f3698f98426c6bb8890389709c9d2de2bafe
+                    remote: https://github.com/thimathi/Aurevia.git
+                host: NB597-MED
+                memory:
+                    total: "16571904000"
+                os: Windows-10-10.0.26200-SP0
+                program: c:\Users\Thimathi\source\Aurevia\notebooks\model_text.ipynb
+                python: CPython 3.10.7
+                root: c:\Users\Thimathi\source\Aurevia\notebooks
+                startedAt: "2026-03-02T03:14:28.178919Z"
+                writerId: szn7ip7wv5qijlxrmg6dr6rox2m2tkoj
+        m: []
+        python_version: 3.10.7
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "3":
+                - 2
+                - 13
+                - 41
+            "4": 3.10.7
+            "5": 0.25.0
+            "6": 5.2.0
+            "8":
+                - 1
+                - 3
+            "12": 0.25.0
+            "13": windows-amd64

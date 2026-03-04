@@ -1,0 +1,374 @@
+_name_or_path:
+    value: bert-base-uncased
+_wandb:
+    value:
+        cli_version: 0.25.0
+        e:
+            3y3qpj5djpwe6n80ji4mhw6tpxel2lg6:
+                codePath: c:\Users\Thimathi\source\Aurevia\notebooks\model_text.ipynb
+                codePathLocal: model_text.ipynb
+                cpu_count: 16
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "476373315584"
+                        used: "199321997312"
+                email: chathuradissanayake274@gmail.com
+                executable: c:\Users\Thimathi\AppData\Local\Programs\Python\Python310\python.exe
+                git:
+                    commit: 17b9f3698f98426c6bb8890389709c9d2de2bafe
+                    remote: https://github.com/thimathi/Aurevia.git
+                host: NB597-MED
+                memory:
+                    total: "16571904000"
+                os: Windows-10-10.0.26200-SP0
+                program: c:\Users\Thimathi\source\Aurevia\notebooks\model_text.ipynb
+                python: CPython 3.10.7
+                root: c:\Users\Thimathi\source\Aurevia\notebooks
+                startedAt: "2026-03-02T04:48:51.598322Z"
+                writerId: 3y3qpj5djpwe6n80ji4mhw6tpxel2lg6
+        m:
+            - "1": train/global_step
+              "6":
+                - 3
+              "7": []
+            - "2": '*'
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.10.7
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 51
+                - 53
+                - 71
+            "3":
+                - 2
+                - 7
+                - 13
+                - 19
+                - 62
+                - 66
+            "4": 3.10.7
+            "5": 0.25.0
+            "6": 5.2.0
+            "8":
+                - 1
+                - 3
+            "9":
+                "1": transformers_trainer
+            "12": 0.25.0
+            "13": windows-amd64
+accelerator_config:
+    value:
+        dispatch_batches: null
+        even_batches: true
+        gradient_accumulation_kwargs: null
+        non_blocking: false
+        split_batches: false
+        use_seedable_sampler: true
+adam_beta1:
+    value: 0.9
+adam_beta2:
+    value: 0.999
+adam_epsilon:
+    value: 1e-08
+add_cross_attention:
+    value: false
+architectures:
+    value:
+        - BertForMaskedLM
+attention_probs_dropout_prob:
+    value: 0.1
+auto_find_batch_size:
+    value: false
+average_tokens_across_devices:
+    value: true
+batch_eval_metrics:
+    value: false
+bf16:
+    value: false
+bf16_full_eval:
+    value: false
+bos_token_id:
+    value: null
+chunk_size_feed_forward:
+    value: 0
+classifier_dropout:
+    value: null
+data_seed:
+    value: null
+dataloader_drop_last:
+    value: false
+dataloader_num_workers:
+    value: 0
+dataloader_persistent_workers:
+    value: false
+dataloader_pin_memory:
+    value: true
+dataloader_prefetch_factor:
+    value: null
+ddp_backend:
+    value: null
+ddp_broadcast_buffers:
+    value: null
+ddp_bucket_cap_mb:
+    value: null
+ddp_find_unused_parameters:
+    value: null
+ddp_timeout:
+    value: 1800
+debug:
+    value: []
+deepspeed:
+    value: null
+disable_tqdm:
+    value: false
+do_eval:
+    value: true
+do_predict:
+    value: false
+do_train:
+    value: false
+dtype:
+    value: float32
+enable_jit_checkpoint:
+    value: false
+eos_token_id:
+    value: null
+eval_accumulation_steps:
+    value: null
+eval_delay:
+    value: 0
+eval_do_concat_batches:
+    value: true
+eval_on_start:
+    value: false
+eval_steps:
+    value: null
+eval_strategy:
+    value: epoch
+eval_use_gather_object:
+    value: false
+fp16:
+    value: false
+fp16_full_eval:
+    value: false
+fsdp:
+    value: []
+fsdp_config:
+    value:
+        min_num_params: 0
+        xla: false
+        xla_fsdp_grad_ckpt: false
+        xla_fsdp_v2: false
+full_determinism:
+    value: false
+gradient_accumulation_steps:
+    value: 1
+gradient_checkpointing:
+    value: false
+gradient_checkpointing_kwargs:
+    value: null
+greater_is_better:
+    value: false
+hidden_act:
+    value: gelu
+hidden_dropout_prob:
+    value: 0.1
+hidden_size:
+    value: 768
+hub_always_push:
+    value: false
+hub_model_id:
+    value: null
+hub_private_repo:
+    value: null
+hub_revision:
+    value: null
+hub_strategy:
+    value: every_save
+hub_token:
+    value: <HUB_TOKEN>
+id2label:
+    value:
+        "0": LABEL_0
+        "1": LABEL_1
+ignore_data_skip:
+    value: false
+include_for_metrics:
+    value: []
+include_num_input_tokens_seen:
+    value: "no"
+initializer_range:
+    value: 0.02
+intermediate_size:
+    value: 3072
+is_decoder:
+    value: false
+is_encoder_decoder:
+    value: false
+label_names:
+    value: null
+label_smoothing_factor:
+    value: 0
+label2id:
+    value:
+        LABEL_0: 0
+        LABEL_1: 1
+layer_norm_eps:
+    value: 1e-12
+learning_rate:
+    value: 2e-05
+length_column_name:
+    value: length
+liger_kernel_config:
+    value: null
+load_best_model_at_end:
+    value: true
+local_rank:
+    value: -1
+log_level:
+    value: passive
+log_level_replica:
+    value: warning
+log_on_each_node:
+    value: true
+logging_dir:
+    value: null
+logging_first_step:
+    value: false
+logging_nan_inf_filter:
+    value: true
+logging_steps:
+    value: 200
+logging_strategy:
+    value: steps
+lr_scheduler_kwargs:
+    value: null
+lr_scheduler_type:
+    value: linear
+max_grad_norm:
+    value: 1
+max_position_embeddings:
+    value: 512
+max_steps:
+    value: -1
+metric_for_best_model:
+    value: loss
+model/num_parameters:
+    value: 109483778
+model_type:
+    value: bert
+neftune_noise_alpha:
+    value: null
+num_attention_heads:
+    value: 12
+num_hidden_layers:
+    value: 12
+num_train_epochs:
+    value: 2
+optim:
+    value: adamw_torch_fused
+optim_args:
+    value: null
+optim_target_modules:
+    value: null
+output_attentions:
+    value: false
+output_dir:
+    value: ./results
+output_hidden_states:
+    value: false
+pad_token_id:
+    value: 0
+parallelism_config:
+    value: null
+per_device_eval_batch_size:
+    value: 32
+per_device_train_batch_size:
+    value: 32
+position_embedding_type:
+    value: absolute
+prediction_loss_only:
+    value: false
+problem_type:
+    value: null
+project:
+    value: huggingface
+push_to_hub:
+    value: false
+remove_unused_columns:
+    value: true
+report_to:
+    value:
+        - wandb
+restore_callback_states_from_checkpoint:
+    value: false
+resume_from_checkpoint:
+    value: null
+return_dict:
+    value: true
+run_name:
+    value: null
+save_on_each_node:
+    value: false
+save_only_model:
+    value: false
+save_steps:
+    value: 500
+save_strategy:
+    value: epoch
+save_total_limit:
+    value: 2
+seed:
+    value: 42
+skip_memory_metrics:
+    value: true
+tf32:
+    value: null
+tie_word_embeddings:
+    value: true
+torch_compile:
+    value: false
+torch_compile_backend:
+    value: null
+torch_compile_mode:
+    value: null
+torch_empty_cache_steps:
+    value: null
+trackio_space_id:
+    value: trackio
+train_sampling_strategy:
+    value: random
+transformers_version:
+    value: 5.2.0
+type_vocab_size:
+    value: 2
+use_cache:
+    value: false
+use_cpu:
+    value: false
+use_liger_kernel:
+    value: false
+vocab_size:
+    value: 30522
+warmup_ratio:
+    value: null
+warmup_steps:
+    value: 0
+weight_decay:
+    value: 0.01

@@ -1,0 +1,17 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.10.7",
+  "startedAt":  "2026-03-02T02:36:21.234999Z",
+  "program":  "c:\\Users\\Thimathi\\source\\Aurevia\\notebooks\\model_text.ipynb",
+  "codePath":  "c:\\Users\\Thimathi\\source\\Aurevia\\notebooks\\model_text.ipynb",
+  "codePathLocal":  "model_text.ipynb",
+  "git":  {
+    "remote":  "https://github.com/thimathi/Aurevia.git",
+    "commit":  "17b9f3698f98426c6bb8890389709c9d2de2bafe"
+  },
+  "email":  "chathuradissanayake274@gmail.com",
+  "root":  "c:\\Users\\Thimathi\\source\\Aurevia\\notebooks",
+  "host":  "NB597-MED",
+  "executable":  "c:\\Users\\Thimathi\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+  "writerId":  "13l8k9vj66ohfyduuk6aeqaip4yhr37s"
+}
